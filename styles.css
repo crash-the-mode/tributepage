@@ -1,0 +1,23 @@
+.light {
+	background-color: #eee;
+	color: black;
+}
+
+body {
+	text-align: center;
+}
+
+#image {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	margin: auto;;
+}
+
+@media (prefers-color-scheme: dark) {
+	.light.dark { background-color: #333; color: #ddd; }
+}
+
+@media (prefers-color-scheme: light) {
+	.light.dark { background-color: #eee; color: black; }
+}
