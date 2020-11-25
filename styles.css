@@ -1,5 +1,6 @@
 
 body {
+	font-family: Verdana, "Droid Sans", Arial, sans-serif;
 	text-align: center;
 }
 
@@ -12,6 +13,10 @@ ul {
 	max-width: 100%;
 	height: auto;
 	margin: auto;
+}
+
+figcaption {
+	padding: 5px;
 }
 
 .lightborder {
@@ -31,6 +36,7 @@ ul {
 	body { background-color: #333; color: #eee }
 	.lightborder.darkborder { border-color: #eee; }
 	.lbb.dbb { border-bottom-color: #eee; }
+	a { color: dodgerblue };
 }
 
 @media (prefers-color-scheme: light) {
