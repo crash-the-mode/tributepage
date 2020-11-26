@@ -4,10 +4,6 @@ body {
 	text-align: center;
 }
 
-ul {
-	list-style-position: inside;
-}
-
 #image {
 	display: block;
 	max-width: 100%;
@@ -18,6 +14,13 @@ ul {
 figcaption {
 	padding: 5px;
 }
+
+ul {
+	list-style-position: inside;
+	display: inline-block;
+	text-align: justify;
+}
+
 
 .lightborder {
 	border-style: solid;
