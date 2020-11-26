@@ -12,7 +12,20 @@ body {
 }
 
 figcaption {
-	padding: 5px;
+	margin-top: .5em;
+}
+
+figcaption > p {
+	padding-left: 1em;
+	padding-right: 1em;
+	margin-bottom: .5em;
+	text-align: justify;
+}
+
+#tribute-info > p {
+	margin-left: 2.5em;
+	margin-right: 2.5em;
+	text-align: justify;
 }
 
 ul {
