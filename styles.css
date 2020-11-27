@@ -1,7 +1,24 @@
 
 body {
 	font-family: Verdana, "Droid Sans", Arial, sans-serif;
+}
+
+h1 {
 	text-align: center;
+}
+
+h2 {
+	padding: 0 1.6em 0 1.6em;
+	text-align: left;
+}
+
+p {
+	text-align: center;
+}
+
+#main {
+	padding-top: 2vh;
+	padding-bottom: 2vh;
 }
 
 #image {
@@ -13,11 +30,13 @@ body {
 
 figcaption {
 	margin-top: .5em;
+	padding-left: 1em;
+	padding-right: 1em;
+	text-align: center;
 }
 
 figcaption > p {
-	padding-left: 1em;
-	padding-right: 1em;
+	margin-top: .5em;
 	margin-bottom: .5em;
 	text-align: justify;
 }
@@ -28,10 +47,17 @@ figcaption > p {
 	text-align: justify;
 }
 
+#tribute-info > h2 {
+	display: inline-block;
+	text-align: left;
+	margin: auto;
+}
+
 ul {
 	list-style-position: inside;
 	display: inline-block;
-	text-align: justify;
+	text-align: left;
+	margin-bottom: 2em;
 }
 
 
